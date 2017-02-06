@@ -144,7 +144,9 @@ public class AddActivity extends AppCompatActivity implements View.OnClickListen
                 break;
             case R.id.tv_sched:
                 Intent launch_sched = new Intent(AddActivity.this, SchedActivity.class);
-                startActivity(launch_sched);
+                Bundle add=new Bundle();
+		launch_sched.putInt("Aise hi",1);
+		startActivity(launch_sched);
                 finish();
                 break;
             case R.id.btn_upImage:
