@@ -1,3 +1,4 @@
 # practice
 just to practice git
-writing this many thing
+writing this thing
+itss fine
